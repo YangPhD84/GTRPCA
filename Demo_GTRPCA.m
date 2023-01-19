@@ -16,12 +16,12 @@ Tdd = zeros(dn,dn,1);
 Tdd(:,:,1) = disease_PhS;
 Tdd(:,:,2) = disease_DoS;
 
-%% 2. GTRPCA algorithm
+%% 2. ITRPCA algorithm
 p = 0.9; 
 K = 30;
 rat1 = 0.1;
 rat2 = 0.2;
-A_recovery =fGTRPCA(Trr,Tdd,A_DR,p,K,rat1,rat2);
+A_recovery =fITRPCA(Trr,Tdd,A_DR,p,K,rat1,rat2);
 
 
 
