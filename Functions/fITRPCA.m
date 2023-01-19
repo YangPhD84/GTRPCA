@@ -1,4 +1,4 @@
-function  M_ResultMat=fGTRPCA (Trr,Tdd,P_TMat,p,K,rat1,rat2)
+function  M_ResultMat=fITRPCA (Trr,Tdd,P_TMat,p,K,rat1,rat2)
 %% WKNKN step
 [dn,dr] = size(P_TMat);
 P_TMat_new=WKNKN(P_TMat,mean(Tdd,3),mean(Trr,3),K,0.95);
@@ -27,7 +27,7 @@ w = [w; 2*ones(a2,1)];
 w = [w; 4*ones(n-a1-a2,1)];
 
 kao=1/(5*sqrt(n1*n2*n3));
-[R_ResultMat123, E, iter,stop1,stop2]  = gtrpca_tnn_lp_stop(R_ori, kao, w, p,dr_num);
+[R_ResultMat123, E, iter,stop1,stop2]  = itrpca_tnn_lp_stop(R_ori, kao, w, p,dr_num);
 R_ResultMat123=R_ResultMat123/255;
 R_ResultMat=mean(R_ResultMat123((n1-dn+1):n1,1:dr,1:dr_num),3);
 
@@ -55,7 +55,7 @@ w = [w; 2*ones(b2,1)];
 w = [w; 4*ones(nn-b1-b2,1)];
 
 kao=1/(5*sqrt(nn1*nn2*nn3));
-[D_ResultMat123, E,iter,stop1,stop2]  = gtrpca_tnn_lp_stop(D_ori, kao, w, p,dd_num);
+[D_ResultMat123, E,iter,stop1,stop2]  = itrpca_tnn_lp_stop(D_ori, kao, w, p,dd_num);
 D_ResultMat123=D_ResultMat123/255;
 D_ResultMat=mean(D_ResultMat123(1:dn,1:dr,1:dd_num),3);
 
