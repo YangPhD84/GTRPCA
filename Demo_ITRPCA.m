@@ -16,7 +16,7 @@ Tdd = zeros(dn,dn,1);
 Tdd(:,:,1) = disease_PhS;
 Tdd(:,:,2) = disease_DoS;
 
-%% 2. GTRPCA algorithm
+%% 2. ITRPCA algorithm
 p = 0.9; 
 K = 30;
 rat1 = 0.1;
