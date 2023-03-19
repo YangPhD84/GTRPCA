@@ -1,5 +1,5 @@
 function [L,S,iter,stop1,stop2] = itrpca_tnn_lp_stop(X, lambda, weight, p, dimdim)
-% Solve the Tensor Robust Principal Component Analysis based on Weighted Tensor Schatten p-Norm problem by ADMM
+% Solve the Tensor Robust Principal Component Analysis based on Weighted Tensor Schatten p-Norm problem by ALM
 % min_{L,S} ||L||_sp^p+lambda*||S||_1, s.t. X=L+S
 
 rho = 1.1;
