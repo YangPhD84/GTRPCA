@@ -1,8 +1,17 @@
 # ITRPCA 
-*kdfvdj
-'''
+* kdfvdj
+```
 dsafd
-'''
+```
+# Requirements
+* Matlab >= 2014
+
+# Installation
+HGIMC can be downloaded by
+```
+git clone https://github.com/BioinformaticsCSU/HGIMC
+```
+
 We propose a new scheme with improved tensor robust principal component analysis (ITRPCA) to predict promising drug-associated indications. The code in this package implements ITRPCA for computational drug repositioning, which is implemented in Matlab.
 
 # Contact:  
