@@ -1,4 +1,8 @@
 # ITRPCA 
+*kdfvdj
+'''
+dsafd
+'''
 We propose a new scheme with improved tensor robust principal component analysis (ITRPCA) to predict promising drug-associated indications. The code in this package implements ITRPCA for computational drug repositioning, which is implemented in Matlab.
 
 # Contact:  
