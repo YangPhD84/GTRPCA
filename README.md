@@ -37,6 +37,7 @@ Installation has been tested in a Windows platform.
 
 # Instructions
 We provide detailed step-by-step instructions for running ITRPCA model.
+
 **Step 1**: add datasets\functions paths
 ```
 addpath('Gold standard dataset');
@@ -60,6 +61,25 @@ Tdd = zeros(dn,dn,1);
 Tdd(:,:,1) = disease_PhS;
 Tdd(:,:,2) = disease_DoS;
 ```
+**Step 3**: parameter Settings
+
+The hyper-parameters are fixed.
+```
+p = 0.9; 
+K = 30;
+rat1 = 0.1;
+rat2 = 0.2;
+```
+**Step 4**: run the ITRPCA function (fITRPCA)
+```
+A_recovery =fITRPCA(Trr,Tdd,A_DR,p,K,rat1,rat2);
+```
+
+# A Quickstart Guide
+Users can immediately start playing with ITRPCA running ``` Demo_ITRPCA.m ``` in matlab.
+
+
+
 
 # Installation
 HGIMC can be downloaded by
