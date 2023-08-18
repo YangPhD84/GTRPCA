@@ -31,7 +31,7 @@ Installation has been tested in a Windows platform.
 # Functions Description
 * WKNN.m: this function can implement the WKNN preprocessing algorithm;
 * fITRPCA.m: this function is the core algorithm of the ITRPCA model for implementing correlation prediction;
-* ffindw.m: this function can implement the solution of the weight vector omega;
+* ffindw.m: this function determines the weight vector omega;
 * itrpca_tnn_lp_stop.m: this function solves the problem of tensor robust principal component analysis based on the weighted tensor Schatten p-Norm;
 * prox_l1.m: this function is the M-ADMM algorithm;
 * prox_tnn.m: this function is used to update the low-rank tensor in the model;
