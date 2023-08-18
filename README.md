@@ -43,7 +43,7 @@ We provide detailed step-by-step instructions for running ITRPCA model.
 
 **Step 1**: add datasets\functions paths
 ```
-addpath('Gold standard dataset');
+addpath('Gdataset');
 addpath('Functions');
 ```
 **Step 2**: load datasets with association matirx and similarity matrices
@@ -80,7 +80,7 @@ A_recovery =fITRPCA(Trr,Tdd,A_DR,p,K,rat1,rat2);
 
 # A Quickstart Guide
 Users can immediately start playing with ITRPCA running ``` Demo_ITRPCA.m ``` in matlab.
-* ```Demo_ITRPCA.m```: it demonstrates a process of predicting drug-disease associations on the gold standard dataset by ITRPCA algorithm.
+* ```Demo_ITRPCA.m```: it demonstrates a process of predicting drug-disease associations on the gold standard dataset (Gdataset) by ITRPCA algorithm.
 
 # Run ITRPCA on User's Own Data
 We provided instructions on implementing ITRPCA model with user's own data. One could directly run ITRPCA model in ``` Demo_ITRPCA.m```  with custom data by the following instructions.
