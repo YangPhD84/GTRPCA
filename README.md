@@ -51,7 +51,7 @@ addpath('Functions');
 ```
 load DrugSimMat
 load DiseaseSimMat
-load didr
+load Didr
 A_DR = didr;
 [dn,dr] = size(A_DR);
 Trr = zeros(dr,dr,1);
