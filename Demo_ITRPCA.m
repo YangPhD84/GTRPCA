@@ -3,7 +3,7 @@ addpath('Gdataset');
 addpath('Functions');
 
 %% 1. Load Datesets
-load drugsimMat
+load drugSimMat
 load diseaseSimMat
 load didr
 A_DR = didr;
