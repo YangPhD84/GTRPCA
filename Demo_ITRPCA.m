@@ -1,9 +1,11 @@
 clear all
-addpath('Datasets');
+addpath('Gdataset');
 addpath('Functions');
 
 %% 1. Load Datesets
-load dataset1_y2020
+load drugsimMat
+load diseaseSimMat
+load didr
 A_DR = didr;
 [dn,dr] = size(A_DR);
 Trr = zeros(dr,dr,1);
