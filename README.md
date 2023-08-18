@@ -76,8 +76,24 @@ A_recovery =fITRPCA(Trr,Tdd,A_DR,p,K,rat1,rat2);
 ```
 
 # A Quickstart Guide
-Users can immediately start playing with ITRPCA running ``` Demo_ITRPCA.m ``` in matlab.
+Users can immediately start playing with ITRPCA running ``` Demo_ITRPCA.m ``` in matlab.
+* ```Demo_ITRPCA.m```: it demonstrates a process of predicting drug-disease associations on the gold standard dataset by ITRPCA algorithm.
 
+# Run ITRPCA on User's Own Data
+We provided instructions on implementing ITRPCA model with user's own data. One could directly run ITRPCA model in ``` Demo_ITRPCA.m```  with custom data by the following instructions.
+
+**Step 1**: Prepare your own data and add the corresponding dataset files.
+
+The required data includes drug-disease association matirx and similarity matrices, which are all saved by ```mat``` files.
+
+**Step 2**: Modify four lines in ```Demo_ITRPCA.m```
+
+You can find ```DrugSimMat, DiseaseSimMat, didr, Trr, Tdd``` in ```Demo_ITRPCA.m```. All you need to do is replace them with your own data.
+
+# Contact
+If you have any questions or suggestions with the code, please let us know. Contact Mengyun Yang at 
+
+(mengyun_yang@126.com)
 
 
 
