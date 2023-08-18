@@ -91,9 +91,8 @@ The required data includes drug-disease association matirx and similarity matric
 You can find ```DrugSimMat, DiseaseSimMat, didr, Trr, Tdd``` in ```Demo_ITRPCA.m```. All you need to do is replace them with your own data.
 
 # Contact
-If you have any questions or suggestions with the code, please let us know. Contact Mengyun Yang at 
+If you have any questions or suggestions with the code, please let us know. Contact Mengyun Yang at mengyun_yang@126.com
 
-mengyun_yang@126.com
 
 
 
