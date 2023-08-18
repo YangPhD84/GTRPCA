@@ -23,7 +23,10 @@ Installation has been tested in a Windows platform.
 * drug_DDIS: drug-drug interaction similarity matrix;
 * drug_TargetS: drug's target profile similarity matrix;
 * disease_PhS: disease phenotype similarity matrix;
-* disease_DoS: disease ontology similarity matrix.
+* disease_DoS: disease ontology similarity matrix;
+* Known drug-disease associations.txt: all known drug-disease associations in the Didr.mat file;
+* DiseasesName.xls: disease names used in the ITRPCA model;
+* DrugsName.xls: drug names used in the ITRPCA model.
 
 # Functions Description
 * WKNN.m: this function can implement the WKNN preprocessing algorithm;
