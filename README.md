@@ -73,7 +73,7 @@ K = 30;
 rat1 = 0.1;
 rat2 = 0.2;
 ```
-**Step 4**: run the ITRPCA function (fITRPCA)
+**Step 4**: run the improved tensor robust principal component analysis (ITRPCA)
 ```
 A_recovery =fITRPCA(Trr,Tdd,A_DR,p,K,rat1,rat2);
 ```
