@@ -16,7 +16,7 @@ Installation has been tested in a Windows platform.
 * Gdataset_diseases_name.xls: disease IDs in the gold standard dataset;
 * Gdataset_drugs_name.xls: drug IDs in the gold standard dataset;
 * Gdataset_known_associations.xls：all drug-disease associations in the gold standard dataset；
-* Inpeddateset.mat: this file contains the Indataset information for independent testing；
+* Inpeddateset.mat: this file contains the Inpeddateset information for independent testing；
 * Inpeddateset_diseases_name.xls：disease IDs in the Inpeddateset;
 * Inpeddateset_drugs_name.xls：drug IDs in the Inpeddateset;
 * Inpeddateset_known_associations.xls：all drug-disease associations in the Inpeddateset；
