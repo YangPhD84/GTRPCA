@@ -12,11 +12,14 @@ git clone https://github.com/YangPhD84/ITRPCA
 Installation has been tested in a Windows platform.
 
 # Dataset Description
-* DrugSimMat.mat: This file contains five drug similarity matrices;
-* DiseaseSimMat.mat: This file contains two disease similarity matrices;
-* Didr.mat: the disease-drug association's matrix;
-* DrugsName: the DrugBank IDs of drugs;
-* DiseasesName: the OMIM IDs of diseases;
+* Gdataset.mat: This file contains information about the gold standard dataset;
+* Gdataset_diseases_name.xls: Disease IDs in the gold standard dataset;
+* Gdataset_drugs_name.xls: Drug IDs in the gold standard dataset;
+* Gdataset_known_associations.xls：All drug-disease associations in the gold standard dataset；
+* Inpeddateset.mat: This file contains information about the data used for independent testing；
+* Inpeddateset_diseases_name.xls：Disease IDs in the Inpeddateset;
+* Inpeddateset_drugs_name.xls：Drug IDs in the Inpeddateset;
+* Inpeddateset_known_associations.xls：All drug-disease associations in the Inpeddateset；
 * drug_ChemS: chemical structure similarity matrix;
 * drug_AtcS: drug's ATC code similarity matrix;
 * drug_SideS: side-effect similarity matrix;
@@ -43,15 +46,13 @@ We provide detailed step-by-step instructions for running ITRPCA model.
 
 **Step 1**: add datasets\functions paths
 ```
-addpath('Gdataset');
+addpath('Datasets');
 addpath('Functions');
 ```
 **Step 2**: load datasets with association matirx and similarity matrices
 
 ```
-load DrugSimMat
-load DiseaseSimMat
-load Didr
+load Gdataset
 A_DR = didr;
 [dn,dr] = size(A_DR);
 Trr = zeros(dr,dr,1);
@@ -91,7 +92,7 @@ The required data includes drug-disease association matirx and similarity matric
 
 **Step 2**: Modify four lines in ```Demo_ITRPCA.m```
 
-You can find ```DrugSimMat, DiseaseSimMat, didr, Trr, Tdd``` in ```Demo_ITRPCA.m```. All you need to do is replace them with your own data.
+You can find ```Gdataset, didr, Trr, Tdd``` in ```Demo_ITRPCA.m```. All you need to do is replace them with your own data.
 
 # Contact
 If you have any questions or suggestions with the code, please let us know. Contact Mengyun Yang at mengyun_yang@126.com
