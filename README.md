@@ -12,14 +12,14 @@ git clone https://github.com/YangPhD84/ITRPCA
 Installation has been tested in a Windows platform.
 
 # Dataset Description
-* Gdataset.mat: This file contains information about the gold standard dataset;
-* Gdataset_diseases_name.xls: Disease IDs in the gold standard dataset;
-* Gdataset_drugs_name.xls: Drug IDs in the gold standard dataset;
-* Gdataset_known_associations.xls：All drug-disease associations in the gold standard dataset；
-* Inpeddateset.mat: This file contains the Indataset information for independent testing；
-* Inpeddateset_diseases_name.xls：Disease IDs in the Inpeddateset;
-* Inpeddateset_drugs_name.xls：Drug IDs in the Inpeddateset;
-* Inpeddateset_known_associations.xls：All drug-disease associations in the Inpeddateset；
+* Gdataset.mat: this file contains information about the gold standard dataset;
+* Gdataset_diseases_name.xls: disease IDs in the gold standard dataset;
+* Gdataset_drugs_name.xls: drug IDs in the gold standard dataset;
+* Gdataset_known_associations.xls：all drug-disease associations in the gold standard dataset；
+* Inpeddateset.mat: this file contains the Indataset information for independent testing；
+* Inpeddateset_diseases_name.xls：disease IDs in the Inpeddateset;
+* Inpeddateset_drugs_name.xls：drug IDs in the Inpeddateset;
+* Inpeddateset_known_associations.xls：all drug-disease associations in the Inpeddateset；
 * drug_ChemS: chemical structure similarity matrix;
 * drug_AtcS: drug's ATC code similarity matrix;
 * drug_SideS: side-effect similarity matrix;
@@ -27,6 +27,7 @@ Installation has been tested in a Windows platform.
 * drug_TargetS: drug's target profile similarity matrix;
 * disease_PhS: disease phenotype similarity matrix;
 * disease_DoS: disease ontology similarity matrix;
+* didr: disease-drug association matrix.
 
 # Functions Description
 * WKNN.m: this function can implement the WKNN preprocessing algorithm;
