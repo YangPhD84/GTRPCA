@@ -16,7 +16,7 @@ Installation has been tested in a Windows platform.
 * Gdataset_diseases_name.xls: Disease IDs in the gold standard dataset;
 * Gdataset_drugs_name.xls: Drug IDs in the gold standard dataset;
 * Gdataset_known_associations.xls：All drug-disease associations in the gold standard dataset；
-* Inpeddateset.mat: This file contains information about the data used for independent testing；
+* Inpeddateset.mat: This file contains the Indataset information for independent testing；
 * Inpeddateset_diseases_name.xls：Disease IDs in the Inpeddateset;
 * Inpeddateset_drugs_name.xls：Drug IDs in the Inpeddateset;
 * Inpeddateset_known_associations.xls：All drug-disease associations in the Inpeddateset；
@@ -27,9 +27,6 @@ Installation has been tested in a Windows platform.
 * drug_TargetS: drug's target profile similarity matrix;
 * disease_PhS: disease phenotype similarity matrix;
 * disease_DoS: disease ontology similarity matrix;
-* Known drug-disease associations.txt: all known drug-disease associations in the Didr.mat file;
-* DiseasesName.xls: disease names used in the ITRPCA model;
-* DrugsName.xls: drug names used in the ITRPCA model.
 
 # Functions Description
 * WKNN.m: this function can implement the WKNN preprocessing algorithm;
