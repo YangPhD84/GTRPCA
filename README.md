@@ -11,7 +11,7 @@ git clone https://github.com/YangPhD84/ITRPCA
 ```
 Installation has been tested in a Windows platform.
 
-# Dataset Description
+# Datasets Description
 * Gdataset.mat: this file contains information about the gold standard dataset;
 * Gdataset_diseases_name.xls: disease IDs in the gold standard dataset;
 * Gdataset_drugs_name.xls: drug IDs in the gold standard dataset;
